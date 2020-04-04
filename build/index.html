@@ -1,0 +1,38 @@
+Html Webpack Plugin:
+<pre>
+  Error: Parse Error: <link rel="stylesheet" href="http  s://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bo  otstrap.min.css"
+    <link href="/static/css/main.5f361e03.chunk.css" re  l="stylesheet"></head>
+    <body>
+      <noscript>You need to enable JavaScript to run th  is app.</noscript>
+      <div id="root"></div>
+      <!--
+        This HTML file is a template.
+        If you open it directly in the browser, you wil  l see an empty page.
+        You can add webfonts, meta tags, or analytics t  o this file.
+        The build step will place the bundled scripts i  nto the <body> tag.
+        To begin the development, run `npm start` or `y  arn start`.
+        To create a production bundle, use `npm run bui  ld` or `yarn build`.
+      -->
+    <script>!function(e){function r(r){for(var n,i,l=r[  0],f=r[1],a=r[2],p=0,s=[];p<l.length;p++)i=l[p],Objec  t.prototype.hasOwnProperty.call(o,i)&&o[i]&&s.push(o[  i][0]),o[i]=0;for(n in f)Object.prototype.hasOwnPrope  rty.call(f,n)&&(e[n]=f[n]);for(c&&c(r);s.length;)s.sh  ift()();return u.push.apply(u,a||[]),t()}function t()  {for(var e,r=0;r<u.length;r++){for(var t=u[r],n=!0,l=  1;l<t.length;l++){var f=t[l];0!==o[f]&&(n=!1)}n&&(u.s  plice(r--,1),e=i(i.s=t[0]))}return e}var n={},o={1:0}  ,u=[];function i(r){if(n[r])return n[r].exports;var t  =n[r]={i:r,l:!1,exports:{}};return e[r].call(t.export  s,t,t.exports,i),t.l=!0,t.exports}i.m=e,i.c=n,i.d=fun  ction(e,r,t){i.o(e,r)||Object.defineProperty(e,r,{enu  merable:!0,get:t})},i.r=function(e){"undefined"!==typ  eof Symbol&&Symbol.toStringTag&&Object.defineProperty  (e,Symbol.toStringTag,{value:"Module"}),Object.define  Property(e,"__esModule",{value:!0})},i.t=function(e,r  ){if(1&r&&(e=i(e)),8&r)return e;if(4&r&&"object"===ty  peof e&&e&&e.__esModule)return e;var t=Object.create(  null);if(i.r(t),Object.defineProperty(t,"default",{en  umerable:!0,value:e}),2&r&&"string"!=typeof e)for(var   n in e)i.d(t,n,function(r){return e[r]}.bind(null,n)  );return t},i.n=function(e){var r=e&&e.__esModule?fun  ction(){return e.default}:function(){return e};return   i.d(r,"a",r),r},i.o=function(e,r){return Object.prot  otype.hasOwnProperty.call(e,r)},i.p="/";var l=this["w  ebpackJsonpshow-me-the-directory"]=this["webpackJsonp  show-me-the-directory"]||[],f=l.push.bind(l);l.push=r  ,l=l.slice();for(var a=0;a<l.length;a++)r(l[a]);var c  =f;t()}([]);
+  //# sourceMappingURL=runtime-main.1b78e3b8.js.map</sc  ript><script src="/static/js/2.64b41f9d.chunk.js"></s  cript><script src="/static/js/main.e36294d9.chunk.js"  ></script></body>
+  </html>
+  
+  - htmlparser.js:244 new HTMLParser
+    [show-me-the-directory]/[html-minifier-terser]/src/    htmlparser.js:244:13
+  
+  - htmlminifier.js:981 minify
+    [show-me-the-directory]/[html-minifier-terser]/src/    htmlminifier.js:981:3
+  
+  - htmlminifier.js:1342 Object.exports.minify
+    [show-me-the-directory]/[html-minifier-terser]/src/    htmlminifier.js:1342:16
+  
+  - index.js:445 HtmlWebpackPlugin.postProcessHtml
+    [show-me-the-directory]/[html-webpack-plugin]/index    .js:445:41
+  
+  - index.js:274 Promise.all.then.then
+    [show-me-the-directory]/[html-webpack-plugin]/index    .js:274:25
+  
+  - next_tick.js:68 process._tickCallback
+    internal/process/next_tick.js:68:7
+  
+</pre>
