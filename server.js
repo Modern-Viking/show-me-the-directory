@@ -3,7 +3,7 @@ const app = express();
 const path = require('path');
 const port = process.env.PORT || 3000
 
-const publicPath = path.join(__dirname, './public');
+const publicPath = path.join(__dirname, './build');
 app.use(express.static(publicPath));
 
 require("./routes/htmlRoutes")(app);
